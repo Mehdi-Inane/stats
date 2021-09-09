@@ -1,3 +1,14 @@
+--Ce programme utilise les modules Openpyxl, Matplotlib, scipy,  numpy, tkinter de Python 3.8.0--
+
+--Mode de compilation du code--
+Pour une compilation normale, se placer dans le dossier du programme et taper sur le terminal python3 stats.py
+Pour générer un éxecutable transférable sur les différentes machines, il faudra d'abord installer pyinstaller puis taper la commande:
+ pyinstaller --nocommand --onefile stats.py
+Cette commande créera plusieurs dossier, l'éxecutable se trouvera au niveau du dossier dist.
+
+
+
+
 ---Utilisation du logiciel----
 
 Ce logiciel a été développé afin de génerer des fichier Matbase, Matfinale et MatInter, pour les tâches VOL et Hoppy. Pour chaque fichier, trois sont génerés dépendant de la nature de la réponse (0, D ou M). Ce sont des fichiers Excel (.xlsx)
